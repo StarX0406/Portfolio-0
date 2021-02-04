@@ -2,6 +2,7 @@
 body {
   font-family: "Montserrat";
   text-align: center;
+  padding: 2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,7 +21,11 @@ p {
   line-height: 1.5;
   color: black;
 }
-
+ /* #hedimg {
+   background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover; */
+}
+ }
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
@@ -35,8 +40,9 @@ p {
 /* Sections */
 
 .colored-section {
-  background-image: url(images/bakimg.png);
-  color: #fff;
+  /* background-image: url("https://img-a.udemycdn.com/notices/featured_banner/image_udlite/1999ee6d-47cd-42f2-baca-747713a0228b.jpg?ZKYYtMMY22PK0yWMXOa0KI-T74VeMC8DNKtJTv7Fe8RRpJnhsmIqnxOIyCAEK_a8nXybYsbClER45S8Y0Pgq36uJM0E_78iR75K_oi_9Ea-Js7X3DXX1m85vGTVNwzh3dulinc1OoV691HDNCr-QD0IyyW-stIBkLp660kAj_mWkYgjaED-06Ob1rxo"); */
+   background-size: cover;
+   background-color: grey;
 }
 
 .white-section {
@@ -73,11 +79,13 @@ p {
 /* Title Section */
 
 #title {
+  /* background-color: white; */
+  /* background-image: url("https://www.sololearn.com/Uploads/header.jpg"); */
   background-image: url("https://img-a.udemycdn.com/notices/featured_banner/image_udlite/1999ee6d-47cd-42f2-baca-747713a0228b.jpg?ZKYYtMMY22PK0yWMXOa0KI-T74VeMC8DNKtJTv7Fe8RRpJnhsmIqnxOIyCAEK_a8nXybYsbClER45S8Y0Pgq36uJM0E_78iR75K_oi_9Ea-Js7X3DXX1m85vGTVNwzh3dulinc1OoV691HDNCr-QD0IyyW-stIBkLp660kAj_mWkYgjaED-06Ob1rxo");
 
    background-size: cover;
-  /* background-color: white; */
   color: Black;
+  /* bottom: 0; */
 
   text-align: left;
 }
@@ -93,13 +101,18 @@ p {
 }
 
 /* Title Image */
+.side {
+  padding: 0;
+  bottom: 0;
+}
 
 .title-image {
   width: 70%;
-  transform: rotate(0deg);
-  position: absolute;
-  right: 3%;
-
+padding: 30px 40px 0px 20px;
+  height: 300px;
+   width: 300px;
+   /* display: flex;
+   align-items: flex-end; */
   z-index: 1;
 }
 
@@ -196,7 +209,7 @@ p {
 #testimonials {
   background-color: #cdd0cb;
   padding: 30px;
-  
+
 }
 
 .testimonial-text {
