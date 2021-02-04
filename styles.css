@@ -73,6 +73,9 @@ p {
 /* Title Section */
 
 #title {
+  background-image: url("https://img-a.udemycdn.com/notices/featured_banner/image_udlite/1999ee6d-47cd-42f2-baca-747713a0228b.jpg?ZKYYtMMY22PK0yWMXOa0KI-T74VeMC8DNKtJTv7Fe8RRpJnhsmIqnxOIyCAEK_a8nXybYsbClER45S8Y0Pgq36uJM0E_78iR75K_oi_9Ea-Js7X3DXX1m85vGTVNwzh3dulinc1OoV691HDNCr-QD0IyyW-stIBkLp660kAj_mWkYgjaED-06Ob1rxo");
+
+   background-size: cover;
   /* background-color: white; */
   color: Black;
 
